@@ -107,7 +107,7 @@ a {
     color: inherit;
     text-decoration: none;
     padding: 0 0.1em;
-    background: rgba(255,255,255,0.5);
+    background: transparent;
     text-shadow: -1px -1px 2px rgba(100,100,100,0.9);
     border-radius: 0.2em;
 
@@ -120,7 +120,7 @@ a {
 
 a:hover,
 a:focus {
-    background: rgba(255,255,255,1);
+    background: rgba(255,255,255,0.1);
     text-shadow: -1px -1px 2px rgba(100,100,100,0.5);
 }
 
@@ -701,3 +701,11 @@ a:focus {
     Thanks for reading. I hope you enjoyed it at least as much as I enjoyed writing it
     for you.
 */
+
+
+.goback{
+	font-size: 0.3em;
+	position: fixed;
+	bottom: 1px;
+	left:1px;
+}
