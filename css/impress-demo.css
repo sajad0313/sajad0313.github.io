@@ -85,20 +85,26 @@ body {
     font-family: 'PT Sans', sans-serif;
     min-height: 740px;
     color: white;
-    background: #33b5e5;
-    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(#33b5f5), to(#33b5e5));
-    background: -webkit-radial-gradient(#33b5f5, #33b5e5);
-    background:    -moz-radial-gradient(#33b5f5, #33b5e5);
-    background:     -ms-radial-gradient(#33b5f5, #33b5e5);
-    background:      -o-radial-gradient(#33b5f5, #33b5e5);
-    background:         radial-gradient(#33b5f5, #33b5e5);
+    background: #0e2b3a;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(#0e2b3a), to(#0e2b3a));
+    background: -webkit-radial-gradient(#0e2b3a, #0e2b3a);
+    background:    -moz-radial-gradient(#0e2b3a, #0e2b3a);
+    background:     -ms-radial-gradient(#0e2b3a, #0e2b3a);
+    background:      -o-radial-gradient(#0e2b3a, #0e2b3a);
+    background:         radial-gradient(#0e2b3a, #0e2b3a);
 }
-
+h3{
+    color: #2995ce;
+}
 /*
     Now let's bring some text styles back ...
 */
 b, strong { font-weight: bold }
 i, em { font-style: italic }
+small
+{
+    font-size: 50%;
+}
 
 /*
     ... and give links a nice look.
